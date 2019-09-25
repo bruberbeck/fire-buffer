@@ -1,0 +1,45 @@
+{
+  "name": "fire-buffer",
+  "description": "An unofficial spatial buffer analysis implementation around Firebase GeoFire's JavaScript library. ",
+  "version": "0.5.1",
+  "license": "MIT",
+  "author": "Feyzi Çelik Yılankıran",
+  "main": "FireBuffer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruberbeck/fire-buffer"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "firebase": "^5.11.1",
+    "firebase-admin": "^6.5.1",
+    "geofire": "^5.0.1",
+    "mocha": "^6.2.0",
+    "spherical-geometry-js": "^1.4.0"
+  },
+  "keywords": [
+    "geofire",
+    "buffer",
+    "analysis",
+    "firebase"
+  ],
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "mocha": {
+    "diff": true,
+    "extension": [
+      "js"
+    ],
+    "opts": false,
+    "package": "./package.json",
+    "reporter": "spec",
+    "ui": "bdd",
+    "watch-files": [
+      "test/*.js"
+    ]
+  }
+}
