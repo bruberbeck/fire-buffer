@@ -1015,7 +1015,7 @@ const polylineTestOutPoints50Point2Meters = [
 ];
 
 module.exports = {
-  dbUrl: 'https://PROJECT_NAME.firebaseio.com/', // Firebase db url that can be found on your Firebase console.
+  dbUrl: 'https://YOUR_PROJECT_NAME.firebaseio.com/', // Firebase db url that can be found on your Firebase console.
   bufferTestRadius: 50, // meters
   pointTestSections: pointTestSections,
   pointTestInPoints: pointTestInPoints,

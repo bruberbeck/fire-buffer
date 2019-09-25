@@ -7,7 +7,7 @@
   "main": "FireBuffer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bruberbeck/fire-buffer"
+    "url": "git+https://github.com/bruberbeck/fire-buffer.git"
   },
   "scripts": {
     "test": "mocha"
@@ -41,5 +41,12 @@
     "watch-files": [
       "test/*.js"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/bruberbeck/fire-buffer/issues"
+  },
+  "homepage": "https://github.com/bruberbeck/fire-buffer#readme",
+  "directories": {
+    "test": "test"
   }
 }
