@@ -15,7 +15,7 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "firebase": "^5.11.1",
-    "firebase-admin": "^6.5.1",
+    "firebase-admin": "^11.4.1",
     "geofire": "^5.0.1",
     "mocha": "^6.2.0",
     "spherical-geometry-js": "^1.4.0"
